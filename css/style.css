@@ -26,3 +26,9 @@
 .quick ul li{float: left;}
 .quick a{ color: #fff; padding: 5px 0 0 10px; display: inline-block;}
 .quick a:hover{color: #ccc;}
+
+
+/* title */
+.title{text-align: center;}
+.title p{background-color: #2698cb; font-size: 28px; display: inline-block; color:#fff; margin-top: 100px; padding: 5px 15px; text-transform: uppercase;}
+.title h1 a{background-color: #4aa8d4; font-size: 18px; color: #fff;display: inline-block; text-transform: uppercase; padding: 5px 15px;}
