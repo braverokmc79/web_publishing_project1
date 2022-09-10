@@ -39,12 +39,21 @@
  /* title position 방식 css */
 .title{}
 .title h1{position: absolute; left: 390px; top: 160px;}
-.title h1 a{ background-color: #2698cb;font-size: 18px; color: #fff;text-transform: uppercase; padding: 5px 15px; display: block; }
+.title h1 a{ background-color: #2698cb;font-size: 18px; color: #fff; padding: 5px 15px; display: block; }
 .title p{background-color: #4aa8d4; font-size: 28px;  color:#fff;  padding: 5px 15px; text-transform: uppercase; position: absolute;left: 230px; top: 110px;}
 
 
 
-
+/* icon */
+.icon{position: absolute; left: 360px; top:220px}
+.icon ul{overflow: hidden;}
+.icon ul li{float: left;}
+.icon li a {width: 60px; height: 60px;  display:block; margin: 0 3px; background-image: url(../img/icon.png);}
+.icon li a:hover{background-image: url(../img/icon.png); background-position-x: -60px;}
+.icon li.icon-tit1 a{}
+.icon li.icon-tit2 a{}
+.icon li.icon-tit3 a{}
+.icon li.icon-tit4 a{}
 
 
 
