@@ -5,3 +5,7 @@ body,div,dl,dd,dt,ul,li,ol,h1,h2,h3,h4,h5,h6,form,legend,textarea,input,select,f
 /* 링크 초기화  */
 a{color: #273743; text-decoration: none;}
 a:hover{color: #390;}
+
+
+/* 폰트 초기화 */
+body, input, textarea, select, button, table{font-family: 'Nanum Gothic', sans-serif , "Noto Sans KR", "돋움", Dotum ; font-size: 12px; line-height: 1.7;}
