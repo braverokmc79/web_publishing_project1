@@ -43,20 +43,16 @@
 .title p{background-color: #4aa8d4; font-size: 28px;  color:#fff;  padding: 5px 15px; text-transform: uppercase; position: absolute;left: 230px; top: 110px;}
 
 
-
-/* icon */
+/* icon   스프라이트  방법 */
 .icon{position: absolute; left: 360px; top:220px}
 .icon ul{overflow: hidden;}
 .icon ul li{float: left;}
 .icon li a {width: 60px; height: 60px;  display:block; margin: 0 3px; background-image: url(../img/icon.png);}
 .icon li a:hover{background-image: url(../img/icon.png); background-position-x: -60px;}
-.icon li.icon-tit1 a{}
-.icon li.icon-tit2 a{}
-.icon li.icon-tit3 a{}
-.icon li.icon-tit4 a{}
-
-
-
+.icon li.icon-tit1 a{ }
+.icon li.icon-tit2 a{background-position-y: 690px;}
+.icon li.icon-tit3 a{background-position-y: 630px;}
+.icon li.icon-tit4 a{background-position-y: 570px;}
 
 
 
