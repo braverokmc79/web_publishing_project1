@@ -142,3 +142,19 @@ body{
 
 .notice2 .more{position: absolute; right:0px; top: 3px;width: 17px; height: 18px; background: url(../img/icon.png) -150px  -89px; display:block; }
 .notice2 .more:hover{ background-position-x: -167px ; right:0px;padding: 0px;}
+
+
+
+/* notice3 */
+.notice3{position: relative;}
+.notice3 h4{font-size: 14px; color: #0093bd; font-weight: bold; margin-bottom: 3px}
+.notice3 ul{}
+.notice3 li{position: relative; height: 60px; padding-left: 60px;}
+.notice3 li a{}
+.notice3 li a img{width: 50px;height: 50px;  position: absolute;left: 0px; top: 0px; border: 1px solid #390;}
+.notice3 li a strong{ display: block;}
+.notice3 li a em{display: block;}
+.notice3 .more{position: absolute; right:0px; top: 3px;width: 17px; height: 18px; background: url(../img/icon.png) -150px  -89px; display:block; }
+.notice3 .more:hover{ background-position-x: -167px ; right:0px;padding: 0px;}
+
+
