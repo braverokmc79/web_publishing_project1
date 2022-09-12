@@ -74,4 +74,6 @@ body{
 /* tit */
 .tit{}
 .tit h2{text-align: center; font-size: 39px; color:#2c94c4; letter-spacing: 2px; font-family:'Nanum Brush Script';}
-
+.tit .btn{position: absolute; right: 0; top:5px; display: block; width: 60px; height: 60px; background-color: #000; 
+    background: url(../img/icon.png) 0 150px;}
+.tit .btn:hover {background: url(../img/icon.png) -60px 150px;}   
