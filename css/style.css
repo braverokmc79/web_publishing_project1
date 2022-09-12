@@ -21,7 +21,7 @@ body{
 #cont-nav{background: url(../img/body_bg.gif) repeat-x;}
 #cont-tit{background-color: #fff;}
 #cont-ban{background-color: #dceff7; }
-#cont-cont{width: 100%;height: 100px;background-color: #222;}
+#cont-cont{}
 
 
 /* quick */
@@ -94,3 +94,15 @@ body{
 .ban .dot ul{overflow: hidden;  display: flex;justify-content: center;}
 .ban .dot ul li{float: left; width:15px; height: 15px; margin: 0px 5px; border-radius: 50%; cursor: pointer;  background-color: #5dbfeb;}
 .ban .dot li:hover{ width:15px; height: 15px; background-color: #2b91c8; }
+
+
+
+/* cont layout */
+.cont{overflow: hidden; padding-top: 30px;}
+.cont .box{width:289px; height: 364px; float: left;  margin: 0 30px 30px 0; padding-right: 30px;}
+.cont .box1{border-right: 1px solid #c8c8c8;}
+.cont .box2{border-right: 1px solid #c8c8c8;}
+.cont .box3{margin-right: 0px; padding-right: 0px;}
+.cont .box4{border-right: 1px solid #c8c8c8;}
+.cont .box5{border-right: 1px solid #c8c8c8;}
+.cont .box6{margin-right: 0px; padding-right: 0px}
