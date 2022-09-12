@@ -111,3 +111,14 @@ body{
 .cont .box .ico-img{width: 60px; height: 60px; background-color: #000; display: block;position: absolute; left: 0; top:6px;}
 .cont .box .ico-tit{padding-left: 67px; font-size: 18px; color: #2c94c4;}
 .cont .box .ico-desc{padding-left: 67px;padding-bottom: 15px; color: #878787; border-bottom: 1px solid #d0d0d0;}
+
+.cont .box .ico-img:hover{ background-position-x: -60px; cursor: pointer;}
+.cont .box1 .ico-img{ background: url(../img/icon.png) 0 -240px}
+.cont .box1 .ico-img{ background: url(../img/icon.png) 0 -240px}
+.cont .box2 .ico-img{ background: url(../img/icon.png) 0 -300px}
+.cont .box3 .ico-img{ background: url(../img/icon.png) 0 -360px}
+.cont .box4 .ico-img{ background: url(../img/icon.png) 0 -420px}
+.cont .box5 .ico-img{ background: url(../img/icon.png) 0 -480px}
+.cont .box6 .ico-img{ background: url(../img/icon.png) 0 -540px}
+
+
