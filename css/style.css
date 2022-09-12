@@ -130,3 +130,15 @@ body{
 }
 .notice .more{position: absolute; right:0px; top: 3px;width: 17px; height: 18px; background: url(../img/icon.png) -150px  -89px; display:block; }
 .notice .more:hover{ background-position-x: -167px ; right:0px;padding: 0px;}
+
+
+/* notice2 */
+.notice2{position: relative;}
+.notice2 h4{font-size: 14px; color: #0093bd; font-weight: bold; margin-bottom: 3px}
+.notice2 ul {}
+.notice2 li {background: url(../img/dot.gif) no-repeat 0px 8px; padding-left: 8px;  overflow: hidden;   }
+.notice2 li a{float: left; width: 60%;  overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.notice2 li .time{float: right; width: 30%;  text-align: right;}
+
+.notice2 .more{position: absolute; right:0px; top: 3px;width: 17px; height: 18px; background: url(../img/icon.png) -150px  -89px; display:block; }
+.notice2 .more:hover{ background-position-x: -167px ; right:0px;padding: 0px;}
