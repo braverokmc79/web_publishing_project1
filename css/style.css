@@ -173,6 +173,26 @@ body{
 
 
 
+/* notice-hover2 */
+.notice-hover2{position: relative;}
+.notice-hover2 h4{font-size: 14px; color: #0093bd; font-weight: bold; margin-bottom: 3px}
+.notice-hover2 ul{overflow: hidden;}
+.notice-hover2 li{float: left; width: 33.3333%; text-align: center;}
+.notice-hover2 li a span{position: relative; display: block;width: 90px;height: 90px;margin: 0 auto;}
+.notice-hover2 li a span img{width:90px; width: 90px;}
+.notice-hover2 li a span em{visibility: hidden;  position: absolute; left: 0;  background: #000; 
+    color: #fff;width: 100%; 
+    background: rgba(0,0,0,0.6); bottom: 0;
+    /* background: #000; opacity: 0.5; filter:alpha(opacity=50); */
+}
+.notice-hover2 li a span:hover em{visibility: visible; }
+.notice-hover2 li a strong{display: block; padding-top:3px;}
+.notice-hover2 .more{position: absolute; right:0px; top: 3px;width: 17px; height: 18px; background: url(../img/icon.png) -150px  -89px; display:block; }
+.notice-hover2 .more:hover{ background-position-x: -167px ; right:0px;padding: 0px;}
+
+
+
+
 
 
 
