@@ -19,7 +19,7 @@ body{
 
 /* contents layout */
 #cont-nav{background: url(../img/body_bg.gif) repeat-x;}
-#cont-tit{background-color: #fff;}
+#cont-tit{background-color: #fff; }
 #cont-ban{background-color: #dceff7; }
 #cont-cont{}
 
@@ -74,7 +74,7 @@ body{
 /* tit */
 .tit{}
 .tit h2{text-align: center; font-size: 39px; color:#2c94c4; letter-spacing: 2px; font-family:'Nanum Brush Script';}
-.tit .btn{position: absolute; right: 0; top:5px; display: block; width: 60px; height: 60px; background-color: #000; background: url(../img/icon.png) 0 150px;}
+.tit .btn{position: absolute; right: 0; top:0px; display: block; width: 60px; height: 60px; background-color: #000; background: url(../img/icon.png) 0 150px;}
 .tit .btn:hover {background: url(../img/icon.png) -60px 150px;}   
 
 
@@ -149,11 +149,13 @@ body{
 .notice3{position: relative;}
 .notice3 h4{font-size: 14px; color: #0093bd; font-weight: bold; margin-bottom: 3px}
 .notice3 ul{}
-.notice3 li{position: relative; height: 60px; padding-left: 60px;}
+.notice3 li{position: relative; height: 52px; padding-left: 60px; padding-top: 8px;}
 .notice3 li a{}
 .notice3 li a img{width: 50px;height: 50px;  position: absolute;left: 0px; top: 0px; border: 1px solid #390;}
 .notice3 li a strong{ display: block;}
-.notice3 li a em{display: block;}
+.notice3 li a em{display: block;
+    overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+}
 .notice3 .more{position: absolute; right:0px; top: 3px;width: 17px; height: 18px; background: url(../img/icon.png) -150px  -89px; display:block; }
 .notice3 .more:hover{ background-position-x: -167px ; right:0px;padding: 0px;}
 
