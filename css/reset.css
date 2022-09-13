@@ -44,3 +44,7 @@ em, address{font-style: normal;}
 .mt40 {margin-top: 40px !important;}
 .mt45 {margin-top: 45px !important;}
 .mt50 {margin-top: 50px !important;}
+
+
+/* 테두리 초기화 */
+img{border: 0;}
