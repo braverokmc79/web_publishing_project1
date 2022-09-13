@@ -153,6 +153,15 @@ body{
 
 
 /* notice4 */
+.notice4{position: relative; border: 1px solid #ccc; margin-top: 10px;}
+.notice4 h4{font-size: 14px; border-bottom: 1px solid #ccc; padding: 8px 10px; font-weight: bold;}
+.notice4 h4 em{ color: #cf3292;}
+.notice4 ul{padding: 10px;}
+.notice4 li{overflow: hidden; background: url(../img/dot.gif) no-repeat 0 8px; padding-left: 8px;}
+.notice4 li a { float: left;  width: 60%;  overflow: hidden; white-space:nowrap; text-overflow: ellipsis;}
+.notice4 li .time{float:right; width: 30%;text-align: right;}
+.notice4 .more{position: absolute; right:8px; top: 8px; display:block; }
+.notice4 .more:hover{ }
 
 
 
