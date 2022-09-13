@@ -171,8 +171,6 @@ body{
 .notice-hover .more:hover{ background-position-x: -167px ; right:0px;padding: 0px;}
 
 
-
-
 /* notice-hover2 */
 .notice-hover2{position: relative;}
 .notice-hover2 h4{font-size: 14px; color: #0093bd; font-weight: bold; margin-bottom: 3px}
@@ -189,6 +187,23 @@ body{
 .notice-hover2 li a strong{display: block; padding-top:3px;}
 .notice-hover2 .more{position: absolute; right:0px; top: 3px;width: 17px; height: 18px; background: url(../img/icon.png) -150px  -89px; display:block; }
 .notice-hover2 .more:hover{ background-position-x: -167px ; right:0px;padding: 0px;}
+
+
+
+
+/* tab_menu */
+.tab_menu{position: relative; border: 1px solid #ccc; height: 105px; padding: 8px;}
+.tab_menu ul{overflow: hidden;border-bottom: 1px solid #ccc;}
+.tab_menu ul li{float: left; border: 1px solid #ccc; margin-right: -1px; margin-bottom: -1px;}
+.tab_menu ul li a{display: block; padding:5px 10px;}
+.tab_menu ul li ul{position: absolute; left: 10px; top: 50px; border: none; }
+.tab_menu ul li ul li{float: none; border: none; width: 280px; overflow: hidden;  white-space:nowrap; text-overflow: ellipsis}
+.tab_menu ul li ul li a{padding: 0;}
+
+.tab_menu ul li.active{background-color: #2c94c4;}
+.tab_menu ul li.active a{color: #fff;}
+
+
 
 
 
