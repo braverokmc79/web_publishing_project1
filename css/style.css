@@ -238,15 +238,15 @@ width: 330px; } */
 .gallery .gallery_btn ul{overflow: hidden;}
 .gallery .gallery_btn li{float: left; width:23px; height: 23px; padding: 5px ; }
 .gallery .gallery_btn li a{width:100%; height: 100%; display: block;}
-.gallery .gallery_btn li .play{ background: url(../img/icon.png) -150px -120px;}
-.gallery .gallery_btn li .stop{background: url(../img/icon.png) -150px -143px;}
-.gallery .gallery_btn li .prev{background: url(../img/icon.png) -150px -166px}
-.gallery .gallery_btn li .next{background: url(../img/icon.png) -150px -189px}
+.gallery .gallery_btn li .play{ background: url(https://braverokmc79.github.io/web_publishing_project1/img/icon.png) -150px -120px;}
+.gallery .gallery_btn li .stop{background: url(https://braverokmc79.github.io/web_publishing_project1/img/icon.png) -150px -143px;}
+.gallery .gallery_btn li .prev{background: url(https://braverokmc79.github.io/web_publishing_project1/img/icon.png) -150px -166px}
+.gallery .gallery_btn li .next{background: url(https://braverokmc79.github.io/web_publishing_project1/img/icon.png) -150px -189px}
 
-.gallery .gallery_btn li .play:hover{ background: url(../img/icon.png) -173px -120px;}
-.gallery .gallery_btn li .stop:hover{background: url(../img/icon.png) -173px -143px;}
-.gallery .gallery_btn li .prev:hover{background: url(../img/icon.png) -173px -166px}
-.gallery .gallery_btn li .next:hover{background: url(../img/icon.png) -173px -189px}
+.gallery .gallery_btn li .play:hover{ background: url(https://braverokmc79.github.io/web_publishing_project1/img/icon.png) -173px -120px;}
+.gallery .gallery_btn li .stop:hover{background: url(https://braverokmc79.github.io/web_publishing_project1/img/icon.png) -173px -143px;}
+.gallery .gallery_btn li .prev:hover{background: url(https://braverokmc79.github.io/web_publishing_project1/img/icon.png) -173px -166px}
+.gallery .gallery_btn li .next:hover{background: url(https://braverokmc79.github.io/web_publishing_project1/img/icon.png) -173px -189px}
 
 .gallery .gallery_img{width: 266px; height: 208px; overflow: hidden; margin: 10px;}
 .gallery .gallery_img img { width: 100%;}

@@ -478,12 +478,10 @@
                                     </ul>                                  
                                 </div>
                                   <div class="gallery_img">
-                                        <ul>
-                                            <li><a href="#"><img src="img/gallery01.jpg" alt="이미지1"></a></li>
-                                            <li><a href="#"><img src="img/gallery02.jpg" alt="이미지2"></a></li>
-                                            <li><a href="#"><img src="img/gallery03.jpg" alt="이미지3"></a></li>
-                                            <li><a href="#"><img src="img/gallery04.jpg" alt="이미지4"></a></li>
-                                        </ul>
+                                        <div><a href="#"><img src="https://braverokmc79.github.io/web_publishing_project1/img/gallery01.jpg" alt="이미지1"></a></div>
+                                        <div><a href="#"><img src="https://braverokmc79.github.io/web_publishing_project1/img/gallery02.jpg" alt="이미지2"></a></div>
+                                        <div><a href="#"><img src="https://braverokmc79.github.io/web_publishing_project1/img/gallery03.jpg" alt="이미지3"></a></div>
+                                        <div><a href="#"><img src="https://braverokmc79.github.io/web_publishing_project1/img/gallery04.jpg" alt="이미지4"></a></div>
                                 </div>
                             </div>
                             <!-- //gallery -->
@@ -598,6 +596,34 @@ $(function(){
      // ]
  
 });
+
+
+
+        //갤러리 영역
+        $(".gallery_img").slick({
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            fade: true
+        });
+
+        $(".play").click(function(event){
+             event.preventDefault();
+            $(".gallery_img").slick("slickPlay");
+        });
+        $(".stop").click(function(event){
+             event.preventDefault();
+            $(".gallery_img").slick("slickPause");
+        });
+        $(".prev").click(function(event){
+             event.preventDefault();
+            $(".gallery_img").slick("slickPrev");
+        });
+        $(".next").click(function(event){
+             event.preventDefault();
+            $(".gallery_img").slick("slickNext");
+        });
+
 </script>
 </body>
 </html>
