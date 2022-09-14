@@ -13,10 +13,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
 
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
     <!-- style -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-
 
 </head>
 <body>
@@ -134,28 +138,28 @@
                 </div>
             </div>
             <!-- //cont-tit -->
-            <div id="cont-ban">
+
+            
+            <div id="cont-ban">                
                 <div class="container">
-                    <div class="ban">
-                        <a href="#" class="ban-prev"><span class="ir">이전 이미지</span></a>
-                        <ul>
-                            <li><a href="#"><img src="img/banner_link1.jpg" alt="웹표준 지침서 보기"></a></li>
-                            <li><a href="#"><img src="img/banner_link2.jpg" alt="CSS를 이용한 입체적인 버튼 만들기"></a></li>
-                            <li><a href="#"><img src="img/banner_link3.jpg" alt="HTML5를 이용한 로그인 폼 만들기"></a></li>
+                    <div class="ban">                        
+                        <ul class="main_img">
+                            <li class="item"><a href="#"><img src="https://braverokmc79.github.io/web_publishing_project1/img/banner_link1.jpg" alt="웹표준 지침서 보기"></a></li>
+                            <li class="item"><a href="#"><img src="https://braverokmc79.github.io/web_publishing_project1/img/banner_link2.jpg" alt="CSS를 이용한 입체적인 버튼 만들기"></a></li>
+                            <li class="item"><a href="#"><img src="https://braverokmc79.github.io/web_publishing_project1/img/banner_link3.jpg" alt="HTML5를 이용한 로그인 폼 만들기"></a></li>
+                            <li class="item"><a href="#"><img src="https://braverokmc79.github.io/web_publishing_project1/img/banner_link1.jpg" alt="웹표준 지침서 보기"></a></li>
+                            <li class="item"><a href="#"><img src="https://braverokmc79.github.io/web_publishing_project1/img/banner_link2.jpg" alt="CSS를 이용한 입체적인 버튼 만들기"></a></li>
+                            <li class="item"><a href="#"><img src="https://braverokmc79.github.io/web_publishing_project1/img/banner_link3.jpg" alt="HTML5를 이용한 로그인 폼 만들기"></a></li>
+                            <li class="item"><a href="#"><img src="https://braverokmc79.github.io/web_publishing_project1/img/banner_link1.jpg" alt="웹표준 지침서 보기"></a></li>
+                            <li class="item"><a href="#"><img src="https://braverokmc79.github.io/web_publishing_project1/img/banner_link2.jpg" alt="CSS를 이용한 입체적인 버튼 만들기"></a></li>
+                            <li class="item"><a href="#"><img src="https://braverokmc79.github.io/web_publishing_project1/img/banner_link3.jpg" alt="HTML5를 이용한 로그인 폼 만들기"></a></li>
                         </ul>
-                        <a href="#" class="ban-next"><span class="ir">다음 이미지</span></a>
-                            <div class="dot">
-                                <ul>
-                                    <li><a href="#">점</a></li>
-                                    <li><a href="#">점</a></li>
-                                    <li><a href="#">점</a></li>
-                                </ul>
-                            </div>
-                    </div>
-                   
+                    </div>                   
                 </div>
             </div>
             <!-- //cont-ban -->
+
+
             <div id="cont-cont">
                  <div class="container">
                     <div class="cont">
@@ -540,6 +544,48 @@
     <!-- //wrap -->
 
 
-
+   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   <script type="text/javascript">
+    $('.main_img').slick({
+      dots: true,     
+ 
+/*    fade: true,
+      cssEase: 'linear' */
+           
+      infinite: true , /* 맨끝이미지에서 끝나지 않고 다시 맨앞으로 이동 */
+      slidesToShow: 3, /* 화면에 보여질 이미지 갯수*/
+      slidesToScroll: 1,  /* 스크롤시 이동할 이미지 갯수 */
+      autoplay: true, /* 자동으로 다음이미지 보여주기 */
+      arrows: true, /* 화살표 */
+      dots:true, /* 아래점 */
+      autoplaySpeed:3000,/* 다음이미지로 넘어갈 시간 3초 */
+       
+      speed:1000 , /* 다음이미지로 넘겨질때 걸리는 시간 */
+      pauseOnHover:true, /* 마우스 호버시 슬라이드 이동 멈춤 */
+    //  nextArrow: '<i class="fa fa-angle-right"></i>',
+      //prevArrow: '<i class="fa fa-angle-left" style="font-size:15px;"></i>'
+ 
+       
+      //vertical:true,/* 세로방향으로 슬라이드를 원하면 추가하기// 기본값 가로방향 슬라이드*/       
+     // responsive: [
+     //  { /* 반응형웹*/
+     //      breakpoint: 960, /* 기준화면사이즈 */
+     
+     //      settings: {slidesToShow:2 } /* 사이즈에 적용될 설정 */
+     
+              
+     //  },
+     
+     //  {
+             /* 반응형웹*/
+     //      breakpoint: 768, 
+             /* 기준화면사이즈 */
+     //      settings: {slidesToShow:1 } /* 사이즈에 적용될 설정 */ 
+     //      }
+     
+     // ]
+ 
+});
+</script>
 </body>
 </html>
