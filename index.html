@@ -543,9 +543,21 @@
     </div>
     <!-- //wrap -->
 
-
    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
    <script type="text/javascript">
+
+$(function(){
+        //전체 메뉴 버튼
+        $(".tit .btn").click(function(event){
+            event.preventDefault();
+            $("#cont-nav").slideToggle(200);
+            $(".tit .btn").toggleClass("on");
+        });
+});
+
+
+
+
     $('.main_img').slick({
       dots: true,     
  
