@@ -1,5 +1,5 @@
-/* 여백 초기화 */
 @charset "utf-8";
+/* 여백 초기화 */
 body,div,dl,dd,dt,ul,li,ol,h1,h2,h3,h4,h5,h6,form,legend,textarea,input,select,fieldset, p,button{margin: 0;padding: 0;}
 
 /* 링크 초기화  */
