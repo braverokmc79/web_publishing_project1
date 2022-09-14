@@ -253,3 +253,13 @@ body{
 .gallery .gallery_img img { width: 100%;}
 
 
+
+/* login-wrap */
+#login-wrap{border: 1px solid #c8c8c8; height: 118px; margin-bottom: 15px;position: relative;}
+#login-header{width: 257px; height: 25px; background-color: #ccc; position: absolute; left: 15px; top: 10px; }
+#login-header .login_level{}
+#login-header .login_level li{ width: 20px; height: 20px;}
+#login-header .login_level li a{}
+#login-header .login_level li a img{ width: 100%;}
+#login-contents{}
+#login-footer{}
