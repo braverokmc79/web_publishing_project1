@@ -255,11 +255,19 @@ body{
 
 
 /* login-wrap */
-#login-wrap{border: 1px solid #c8c8c8; height: 118px; margin-bottom: 15px;position: relative;}
+#login-wrap{border: 1px solid #c8c8c8; height: 118px; margin-bottom: 15px;position: relative; font-size: 12px;}
 #login-header{width: 257px; height: 25px; background-color: #ccc; position: absolute; left: 15px; top: 10px; }
-#login-header .login_level{}
-#login-header .login_level li{ width: 20px; height: 20px;}
+#login-header .login_level{overflow: hidden;}
+#login-header .login_level li{ width: 20px; height: 20px; float: left;}
 #login-header .login_level li a{}
 #login-header .login_level li a img{ width: 100%;}
-#login-contents{}
-#login-footer{}
+
+#login-header .login_info{ position: absolute; left: 65px; top: 0px}
+#login-header .login_info li{}
+#login-header .login_info li a{}
+#login-header .login_info li a img{ width: auto; height: 15px;}
+#login-header .login_info .ip{position: absolute; left: 135px; top:0px;width: 70px;}
+#login-header .login_info .ip span{font-weight: bold; color: #0093bd; text-decoration:underline;text-transform: uppercase;}
+
+#login-contents{width: 257px; height: 50px; background-color: #ddd; position: absolute; left: 15px; top: 35px;}
+#login-footer{width: 257px; height: 25px; background-color: #999; position: absolute; left: 15px; top: 86px;}
